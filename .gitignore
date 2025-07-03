@@ -1,0 +1,57 @@
+# 编译输出目录（CMake 默认）
+build/
+Build/
+out/
+bin/
+obj/
+*.vcxproj*
+*.sln
+
+# CMake缓存和临时文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# Visual Studio 中间文件
+.vscode/
+.vs/
+*.user
+*.VC.db
+*.VC.opendb
+
+# 编译中间产物
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.app
+*.log
+
+# 着色器编译产物
+*.spv
+
+# 编译脚本缓存
+*.ninja
+.ninja_deps
+.ninja_log
+rules.ninja
+
+# IDE临时文件
+*.DS_Store
+*.idea/
+*.iml
+
+# 外部依赖（如VMA、GLFW等）
+third_party/
+
+# 如果你使用了conan/vcpkg等包管理器：
+conan.lock
+conanbuildinfo.*
+.vcpkg/
+vcpkg_installed/

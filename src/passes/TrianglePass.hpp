@@ -1,0 +1,1 @@
+// TrianglePass declaration

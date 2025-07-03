@@ -1,4 +1,6 @@
 #include "core/VulkanContext.hpp"
+#include "core/Swapchain.hpp"
+#include "core/Command.hpp"
 
 int main() {
     VulkanContext context;
